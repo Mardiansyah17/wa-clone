@@ -1,10 +1,10 @@
 import React from "react";
-
+import mark from "/public/mark.jpg";
 function ChatPeople() {
   return (
     <div class="flex items-center mb-4 w-fit">
       <div class="flex-none flex flex-col items-center space-y-1 mr-4">
-        <img class="rounded-full w-10 h-10" src="/public/mark.jpg" />
+        <img class="rounded-full w-10 h-10" src={mark} />
       </div>
       <div class="flex-1 bg-[#202c33] text-white p-2 rounded-lg mb-2 relative">
         <div>Pasti tidak bisa chating</div>
@@ -19,7 +19,7 @@ function ChatMe() {
     <div className="flex justify-end">
       <div class="flex items-center flex-row-reverse mb-4 w-fit">
         <div class="flex-none flex flex-col items-center space-y-1 mr-4">
-          <img class="rounded-full w-10 h-10 ml-4" src="/public/mark.jpg" />
+          <img class="rounded-full w-10 h-10 ml-4" src={mark} />
         </div>
         <div class="flex-1 bg-[#005C4B] text-white p-2 rounded-lg mb-2 relative">
           <div>Lagi ngelawak?</div>
